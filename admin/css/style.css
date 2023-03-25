@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation a {
+    color: #333;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.navigation img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-md-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-md-8 {
+    width: 66.67%;
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+    color: #a1afcb;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #141423;
+    color: #a1afcb;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 90%;
+    padding: 20px;
+    background: #141423;
+    border-radius: 5px;
+}
+
+.login h1 {
+    margin-top: 0;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a1afcb;
+}
+
+.btn-primary {
+    color: #141423;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #616896;
+}
+
+@media screen and (max-width: 600px) {
+    .login {
+        top: 40%;
+    }
+}
+
+.wrapper {
+    padding: 50px 0;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tbl-full {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.tbl-full th {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tbl-full td {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tbl-full td a {
+    display: inline-block;
+    background-color: #444;
+    color: #fff;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.tbl-full td a:hover {
+    background-color: #f1f1f1;
+    color: #444;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #444;
+    color: #fff;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f1f1f1;
+    color: #444;
+}
+
+
+.clienti-cautare form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clienti-cautare input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.clienti-cautare input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 50px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+
+@media screen and (max-width: 768px) {
+    .tbl-full {
+        font-size: 14px;
+    }
+
+    .tbl-full th,
+    .tbl-full td {
+        padding: 8px;
+    }
+}
